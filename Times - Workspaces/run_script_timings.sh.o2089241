@@ -1,0 +1,58 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+              R2020a Update 1 (9.8.0.1359463) 64-bit (glnxa64)
+                               April 9, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+num_obs = 1000 and pqi_mode = 2.
+Elapsed time is 0.000102 seconds.
+Running replications for k = 10.
+	Testing RPI 100 of 1000
+	Testing RPI 200 of 1000
+	Testing RPI 300 of 1000
+	Testing RPI 400 of 1000
+	Testing RPI 500 of 1000
+	Testing RPI 600 of 1000
+	Testing RPI 700 of 1000
+	Testing RPI 800 of 1000
+	Testing RPI 900 of 1000
+	Testing RPI 1000 of 1000
+Running replications for k = 100.
+	Testing RPI 100 of 1000
+	Testing RPI 200 of 1000
+	Testing RPI 300 of 1000
+	Testing RPI 400 of 1000
+	Testing RPI 500 of 1000
+	Testing RPI 600 of 1000
+	Testing RPI 700 of 1000
+	Testing RPI 800 of 1000
+	Testing RPI 900 of 1000
+	Testing RPI 1000 of 1000
+Running replications for k = 1000.
+	Testing RPI 100 of 1000
+	Testing RPI 200 of 1000
+	Testing RPI 300 of 1000
+	Testing RPI 400 of 1000
+	Testing RPI 500 of 1000
+	Testing RPI 600 of 1000
+	Testing RPI 700 of 1000
+	Testing RPI 800 of 1000
+	Testing RPI 900 of 1000
+	Testing RPI 1000 of 1000
+Number of Alternatives 	 10 
+Average Time (seconds) 	 0.072 +/- 0.001 
+0.10 Quantile 	 0.063 
+0.90 Quantile 	 0.080 
+Number of Alternatives 	 100 
+Average Time (seconds) 	 1.102 +/- 0.011 
+0.10 Quantile 	 0.896 
+0.90 Quantile 	 1.303 
+Number of Alternatives 	 1000 
+Average Time (seconds) 	 21.749 +/- 0.111 
+0.10 Quantile 	 19.486 
+0.90 Quantile 	 23.654 

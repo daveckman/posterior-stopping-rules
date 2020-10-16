@@ -1,0 +1,88 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+              R2020a Update 1 (9.8.0.1359463) 64-bit (glnxa64)
+                               April 9, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+num_obs = 1000 and pqi_mode = 1.
+Elapsed time is 0.000055 seconds.
+Running replications for k = 10.
+	Testing RPI 100 of 1000
+	Testing RPI 200 of 1000
+	Testing RPI 300 of 1000
+	Testing RPI 400 of 1000
+	Testing RPI 500 of 1000
+	Testing RPI 600 of 1000
+	Testing RPI 700 of 1000
+	Testing RPI 800 of 1000
+	Testing RPI 900 of 1000
+	Testing RPI 1000 of 1000
+Running replications for k = 100.
+	Testing RPI 100 of 1000
+	Testing RPI 200 of 1000
+	Testing RPI 300 of 1000
+	Testing RPI 400 of 1000
+	Testing RPI 500 of 1000
+	Testing RPI 600 of 1000
+	Testing RPI 700 of 1000
+	Testing RPI 800 of 1000
+	Testing RPI 900 of 1000
+	Testing RPI 1000 of 1000
+Running replications for k = 1000.
+	Testing RPI 100 of 1000
+	Testing RPI 200 of 1000
+	Testing RPI 300 of 1000
+	Testing RPI 400 of 1000
+	Testing RPI 500 of 1000
+	Testing RPI 600 of 1000
+	Testing RPI 700 of 1000
+	Testing RPI 800 of 1000
+	Testing RPI 900 of 1000
+	Testing RPI 1000 of 1000
+Running replications for k = 10000.
+	Testing RPI 100 of 1000
+	Testing RPI 200 of 1000
+	Testing RPI 300 of 1000
+	Testing RPI 400 of 1000
+	Testing RPI 500 of 1000
+	Testing RPI 600 of 1000
+	Testing RPI 700 of 1000
+	Testing RPI 800 of 1000
+	Testing RPI 900 of 1000
+	Testing RPI 1000 of 1000
+Running replications for k = 100000.
+	Testing RPI 100 of 1000
+	Testing RPI 200 of 1000
+	Testing RPI 300 of 1000
+	Testing RPI 400 of 1000
+	Testing RPI 500 of 1000
+	Testing RPI 600 of 1000
+	Testing RPI 700 of 1000
+	Testing RPI 800 of 1000
+	Testing RPI 900 of 1000
+	Testing RPI 1000 of 1000
+Number of Alternatives 	 10 
+Average Time (seconds) 	 0.005 +/- 0.000 
+0.10 Quantile 	 0.004 
+0.90 Quantile 	 0.006 
+Number of Alternatives 	 100 
+Average Time (seconds) 	 0.009 +/- 0.000 
+0.10 Quantile 	 0.007 
+0.90 Quantile 	 0.011 
+Number of Alternatives 	 1000 
+Average Time (seconds) 	 0.029 +/- 0.000 
+0.10 Quantile 	 0.025 
+0.90 Quantile 	 0.034 
+Number of Alternatives 	 10000 
+Average Time (seconds) 	 0.138 +/- 0.001 
+0.10 Quantile 	 0.125 
+0.90 Quantile 	 0.159 
+Number of Alternatives 	 100000 
+Average Time (seconds) 	 0.572 +/- 0.003 
+0.10 Quantile 	 0.511 
+0.90 Quantile 	 0.659 
