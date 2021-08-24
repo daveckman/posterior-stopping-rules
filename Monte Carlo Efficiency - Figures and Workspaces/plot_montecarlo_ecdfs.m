@@ -12,10 +12,10 @@ load(['MonteCarlo_TS_',post_quantity,'_Exact1_rpi_mode=',num2str(rpi_mode),'_M='
 
 figure
 hold on
-stairs([0, sort(total_samples_Bonf_bound)], (0:length(total_samples_Bonf_bound))/length(total_samples_Bonf_bound), 'g-', 'LineWidth', 2);
-stairs([0, sort(total_samples_Slep_bound)], (0:length(total_samples_Slep_bound))/length(total_samples_Slep_bound), 'm-', 'LineWidth', 2);
-stairs([0, sort(total_samples_exact)], (0:length(total_samples_exact))/length(total_samples_exact), 'b-', 'LineWidth', 2);
-stairs([0, sort(total_samples_MC)], (0:length(total_samples_MC))/length(total_samples_MC), 'r-', 'LineWidth', 2);
+stairs([0, sort(total_samples_Bonf_bound)], (0:length(total_samples_Bonf_bound))/length(total_samples_Bonf_bound), 'color', '#1b0ef8', 'LineWidth', 2);
+stairs([0, sort(total_samples_Slep_bound)], (0:length(total_samples_Slep_bound))/length(total_samples_Slep_bound), 'color', '#ae1fe5', 'LineWidth', 2);
+stairs([0, sort(total_samples_exact)], (0:length(total_samples_exact))/length(total_samples_exact), 'color', '#f67c80', 'LineWidth', 2);
+stairs([0, sort(total_samples_MC)], (0:length(total_samples_MC))/length(total_samples_MC), 'color', '#fbdd00', 'LineWidth', 2);
 hold off
 set(gca, 'FontSize', 14, 'LineWidth', 2)
 
@@ -46,10 +46,10 @@ end
 
 figure
 hold on
-stairs([0, sort(check_times_Bonf_bound)], (0:length(check_times_Bonf_bound))/length(check_times_Bonf_bound), 'g-', 'LineWidth', 2);
-stairs([0, sort(check_times_Slep_bound)], (0:length(check_times_Slep_bound))/length(check_times_Slep_bound), 'm-', 'LineWidth', 2);
-stairs([0, sort(check_times_exact)], (0:length(check_times_exact))/length(check_times_exact), 'b-', 'LineWidth', 2);
-stairs([0, sort(check_times_MC)], (0:length(check_times_MC))/length(check_times_MC), 'r-', 'LineWidth', 2);
+stairs([0, sort(check_times_Bonf_bound)], (0:length(check_times_Bonf_bound))/length(check_times_Bonf_bound), 'color', '#1b0ef8', 'LineWidth', 2);
+stairs([0, sort(check_times_Slep_bound)], (0:length(check_times_Slep_bound))/length(check_times_Slep_bound), 'color', '#ae1fe5', 'LineWidth', 2);
+stairs([0, sort(check_times_exact)], (0:length(check_times_exact))/length(check_times_exact), 'color', '#f67c80', 'LineWidth', 2);
+stairs([0, sort(check_times_MC)], (0:length(check_times_MC))/length(check_times_MC), 'color', '#fbdd00', 'LineWidth', 2);
 hold off
 set(gca, 'FontSize', 14, 'LineWidth', 2)
 

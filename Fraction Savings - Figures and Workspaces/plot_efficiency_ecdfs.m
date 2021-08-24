@@ -1,6 +1,6 @@
 % Plot ECDF of fractional savings
 
-post_quantity = 'EOC'; %'PGS'
+post_quantity = 'PGS'; %'EOC'
 rpi_mode = 3;
 M = 100;
 Q = 50;
@@ -34,12 +34,12 @@ fprintf('TS \t\t %.2f+/-%.2f \t %.2f+/-%.2f\n', avg_frac_savings_bonf_TS, se_fra
 
 figure
 hold on
-stairs(sort(reshape(frac_savings_bonf_EA,1,n_obs)), (1:n_obs)/n_obs, 'm--', 'LineWidth', 2);
-stairs(sort(reshape(frac_savings_slep_EA,1,n_obs)), (1:n_obs)/n_obs, 'm-', 'LineWidth', 2);
-stairs(sort(reshape(frac_savings_bonf_OCBA,1,n_obs)), (1:n_obs)/n_obs, 'b--', 'LineWidth', 2);
-stairs(sort(reshape(frac_savings_slep_OCBA,1,n_obs)), (1:n_obs)/n_obs, 'b-', 'LineWidth', 2);
-stairs(sort(reshape(frac_savings_bonf_TS,1,n_obs)), (1:n_obs)/n_obs, 'r--', 'LineWidth', 2);
-stairs(sort(reshape(frac_savings_slep_TS,1,n_obs)), (1:n_obs)/n_obs, 'r-', 'LineWidth', 2);
+stairs(sort(reshape(frac_savings_bonf_EA,1,n_obs)), (1:n_obs)/n_obs, 'color', '#1b0ef8', 'linestyle', '--', 'LineWidth', 2);
+stairs(sort(reshape(frac_savings_slep_EA,1,n_obs)), (1:n_obs)/n_obs, 'color', '#1b0ef8', 'linestyle', '-', 'LineWidth', 2);
+stairs(sort(reshape(frac_savings_bonf_OCBA,1,n_obs)), (1:n_obs)/n_obs, 'color', '#ae1fe5', 'linestyle', '--', 'LineWidth', 2);
+stairs(sort(reshape(frac_savings_slep_OCBA,1,n_obs)), (1:n_obs)/n_obs, 'color', '#ae1fe5', 'linestyle', '-', 'LineWidth', 2);
+stairs(sort(reshape(frac_savings_bonf_TS,1,n_obs)), (1:n_obs)/n_obs, 'color', '#f67c80', 'linestyle', '--', 'LineWidth', 2);
+stairs(sort(reshape(frac_savings_slep_TS,1,n_obs)), (1:n_obs)/n_obs, 'color', '#f67c80', 'linestyle', '-', 'LineWidth', 2);
 
 xlim([0,1])
 ylim([0,1])
